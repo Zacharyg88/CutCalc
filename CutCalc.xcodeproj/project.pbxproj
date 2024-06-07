@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBDF22F22C13418B00064F5F /* CutCalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF22F12C13418B00064F5F /* CutCalcApp.swift */; };
+		BBDF22F42C13418B00064F5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF22F32C13418B00064F5F /* ContentView.swift */; };
+		BBDF22F62C13418F00064F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDF22F52C13418F00064F5F /* Assets.xcassets */; };
+		BBDF22FA2C13418F00064F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBDF22F92C13418F00064F5F /* Preview Assets.xcassets */; };
+		BBDF23042C13418F00064F5F /* CutCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23032C13418F00064F5F /* CutCalcTests.swift */; };
+		BBDF230E2C13418F00064F5F /* CutCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF230D2C13418F00064F5F /* CutCalcUITests.swift */; };
+		BBDF23102C13418F00064F5F /* CutCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF230F2C13418F00064F5F /* CutCalcUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBDF23002C13418F00064F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDF22E62C13418B00064F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDF22ED2C13418B00064F5F;
+			remoteInfo = CutCalc;
+		};
+		BBDF230A2C13418F00064F5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBDF22E62C13418B00064F5F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBDF22ED2C13418B00064F5F;
+			remoteInfo = CutCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BBDF22EE2C13418B00064F5F /* CutCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CutCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDF22F12C13418B00064F5F /* CutCalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCalcApp.swift; sourceTree = "<group>"; };
+		BBDF22F32C13418B00064F5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBDF22F52C13418F00064F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBDF22F72C13418F00064F5F /* CutCalc.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CutCalc.entitlements; sourceTree = "<group>"; };
+		BBDF22F92C13418F00064F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBDF22FF2C13418F00064F5F /* CutCalcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutCalcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDF23032C13418F00064F5F /* CutCalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCalcTests.swift; sourceTree = "<group>"; };
+		BBDF23092C13418F00064F5F /* CutCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBDF230D2C13418F00064F5F /* CutCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCalcUITests.swift; sourceTree = "<group>"; };
+		BBDF230F2C13418F00064F5F /* CutCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBDF22EB2C13418B00064F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF22FC2C13418F00064F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF23062C13418F00064F5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBDF22E52C13418B00064F5F = {
+			isa = PBXGroup;
+			children = (
+				BBDF22F02C13418B00064F5F /* CutCalc */,
+				BBDF23022C13418F00064F5F /* CutCalcTests */,
+				BBDF230C2C13418F00064F5F /* CutCalcUITests */,
+				BBDF22EF2C13418B00064F5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBDF22EF2C13418B00064F5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF22EE2C13418B00064F5F /* CutCalc.app */,
+				BBDF22FF2C13418F00064F5F /* CutCalcTests.xctest */,
+				BBDF23092C13418F00064F5F /* CutCalcUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBDF22F02C13418B00064F5F /* CutCalc */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF22F12C13418B00064F5F /* CutCalcApp.swift */,
+				BBDF22F32C13418B00064F5F /* ContentView.swift */,
+				BBDF22F52C13418F00064F5F /* Assets.xcassets */,
+				BBDF22F72C13418F00064F5F /* CutCalc.entitlements */,
+				BBDF22F82C13418F00064F5F /* Preview Content */,
+			);
+			path = CutCalc;
+			sourceTree = "<group>";
+		};
+		BBDF22F82C13418F00064F5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF22F92C13418F00064F5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBDF23022C13418F00064F5F /* CutCalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF23032C13418F00064F5F /* CutCalcTests.swift */,
+			);
+			path = CutCalcTests;
+			sourceTree = "<group>";
+		};
+		BBDF230C2C13418F00064F5F /* CutCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBDF230D2C13418F00064F5F /* CutCalcUITests.swift */,
+				BBDF230F2C13418F00064F5F /* CutCalcUITestsLaunchTests.swift */,
+			);
+			path = CutCalcUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBDF22ED2C13418B00064F5F /* CutCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDF23132C13418F00064F5F /* Build configuration list for PBXNativeTarget "CutCalc" */;
+			buildPhases = (
+				BBDF22EA2C13418B00064F5F /* Sources */,
+				BBDF22EB2C13418B00064F5F /* Frameworks */,
+				BBDF22EC2C13418B00064F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CutCalc;
+			productName = CutCalc;
+			productReference = BBDF22EE2C13418B00064F5F /* CutCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBDF22FE2C13418F00064F5F /* CutCalcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDF23162C13418F00064F5F /* Build configuration list for PBXNativeTarget "CutCalcTests" */;
+			buildPhases = (
+				BBDF22FB2C13418F00064F5F /* Sources */,
+				BBDF22FC2C13418F00064F5F /* Frameworks */,
+				BBDF22FD2C13418F00064F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDF23012C13418F00064F5F /* PBXTargetDependency */,
+			);
+			name = CutCalcTests;
+			productName = CutCalcTests;
+			productReference = BBDF22FF2C13418F00064F5F /* CutCalcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBDF23082C13418F00064F5F /* CutCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBDF23192C13418F00064F5F /* Build configuration list for PBXNativeTarget "CutCalcUITests" */;
+			buildPhases = (
+				BBDF23052C13418F00064F5F /* Sources */,
+				BBDF23062C13418F00064F5F /* Frameworks */,
+				BBDF23072C13418F00064F5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBDF230B2C13418F00064F5F /* PBXTargetDependency */,
+			);
+			name = CutCalcUITests;
+			productName = CutCalcUITests;
+			productReference = BBDF23092C13418F00064F5F /* CutCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBDF22E62C13418B00064F5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					BBDF22ED2C13418B00064F5F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					BBDF22FE2C13418F00064F5F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BBDF22ED2C13418B00064F5F;
+					};
+					BBDF23082C13418F00064F5F = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = BBDF22ED2C13418B00064F5F;
+					};
+				};
+			};
+			buildConfigurationList = BBDF22E92C13418B00064F5F /* Build configuration list for PBXProject "CutCalc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBDF22E52C13418B00064F5F;
+			productRefGroup = BBDF22EF2C13418B00064F5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBDF22ED2C13418B00064F5F /* CutCalc */,
+				BBDF22FE2C13418F00064F5F /* CutCalcTests */,
+				BBDF23082C13418F00064F5F /* CutCalcUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBDF22EC2C13418B00064F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF22FA2C13418F00064F5F /* Preview Assets.xcassets in Resources */,
+				BBDF22F62C13418F00064F5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF22FD2C13418F00064F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF23072C13418F00064F5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBDF22EA2C13418B00064F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF22F42C13418B00064F5F /* ContentView.swift in Sources */,
+				BBDF22F22C13418B00064F5F /* CutCalcApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF22FB2C13418F00064F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF23042C13418F00064F5F /* CutCalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBDF23052C13418F00064F5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBDF23102C13418F00064F5F /* CutCalcUITestsLaunchTests.swift in Sources */,
+				BBDF230E2C13418F00064F5F /* CutCalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBDF23012C13418F00064F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDF22ED2C13418B00064F5F /* CutCalc */;
+			targetProxy = BBDF23002C13418F00064F5F /* PBXContainerItemProxy */;
+		};
+		BBDF230B2C13418F00064F5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBDF22ED2C13418B00064F5F /* CutCalc */;
+			targetProxy = BBDF230A2C13418F00064F5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBDF23112C13418F00064F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBDF23122C13418F00064F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		BBDF23142C13418F00064F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CutCalc/CutCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CutCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZApps.CutCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BBDF23152C13418F00064F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CutCalc/CutCalc.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CutCalc/Preview Content\"";
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZApps.CutCalc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBDF23172C13418F00064F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZApps.CutCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CutCalc";
+			};
+			name = Debug;
+		};
+		BBDF23182C13418F00064F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZApps.CutCalcTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CutCalc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CutCalc";
+			};
+			name = Release;
+		};
+		BBDF231A2C13418F00064F5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZApps.CutCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CutCalc;
+			};
+			name = Debug;
+		};
+		BBDF231B2C13418F00064F5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AC45FSW6UK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ZApps.CutCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CutCalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBDF22E92C13418B00064F5F /* Build configuration list for PBXProject "CutCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDF23112C13418F00064F5F /* Debug */,
+				BBDF23122C13418F00064F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDF23132C13418F00064F5F /* Build configuration list for PBXNativeTarget "CutCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDF23142C13418F00064F5F /* Debug */,
+				BBDF23152C13418F00064F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDF23162C13418F00064F5F /* Build configuration list for PBXNativeTarget "CutCalcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDF23172C13418F00064F5F /* Debug */,
+				BBDF23182C13418F00064F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBDF23192C13418F00064F5F /* Build configuration list for PBXNativeTarget "CutCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBDF231A2C13418F00064F5F /* Debug */,
+				BBDF231B2C13418F00064F5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBDF22E62C13418B00064F5F /* Project object */;
+}
