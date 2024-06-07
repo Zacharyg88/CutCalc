@@ -14,6 +14,9 @@
 		BBDF23042C13418F00064F5F /* CutCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23032C13418F00064F5F /* CutCalcTests.swift */; };
 		BBDF230E2C13418F00064F5F /* CutCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF230D2C13418F00064F5F /* CutCalcUITests.swift */; };
 		BBDF23102C13418F00064F5F /* CutCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF230F2C13418F00064F5F /* CutCalcUITestsLaunchTests.swift */; };
+		BBDF231D2C1341BD00064F5F /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF231C2C1341BD00064F5F /* BoardModel.swift */; };
+		BBDF231F2C1342D000064F5F /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF231E2C1342D000064F5F /* BoardCell.swift */; };
+		BBDF23212C13455400064F5F /* AddBoardModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23202C13455400064F5F /* AddBoardModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +48,9 @@
 		BBDF23092C13418F00064F5F /* CutCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CutCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBDF230D2C13418F00064F5F /* CutCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCalcUITests.swift; sourceTree = "<group>"; };
 		BBDF230F2C13418F00064F5F /* CutCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBDF231C2C1341BD00064F5F /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
+		BBDF231E2C1342D000064F5F /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
+		BBDF23202C13455400064F5F /* AddBoardModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBoardModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 				BBDF22F52C13418F00064F5F /* Assets.xcassets */,
 				BBDF22F72C13418F00064F5F /* CutCalc.entitlements */,
 				BBDF22F82C13418F00064F5F /* Preview Content */,
+				BBDF231C2C1341BD00064F5F /* BoardModel.swift */,
+				BBDF231E2C1342D000064F5F /* BoardCell.swift */,
+				BBDF23202C13455400064F5F /* AddBoardModal.swift */,
 			);
 			path = CutCalc;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDF231D2C1341BD00064F5F /* BoardModel.swift in Sources */,
 				BBDF22F42C13418B00064F5F /* ContentView.swift in Sources */,
+				BBDF23212C13455400064F5F /* AddBoardModal.swift in Sources */,
+				BBDF231F2C1342D000064F5F /* BoardCell.swift in Sources */,
 				BBDF22F22C13418B00064F5F /* CutCalcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
