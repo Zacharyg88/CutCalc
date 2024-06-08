@@ -17,6 +17,10 @@
 		BBDF231D2C1341BD00064F5F /* BoardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF231C2C1341BD00064F5F /* BoardModel.swift */; };
 		BBDF231F2C1342D000064F5F /* BoardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF231E2C1342D000064F5F /* BoardCell.swift */; };
 		BBDF23212C13455400064F5F /* AddBoardModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23202C13455400064F5F /* AddBoardModal.swift */; };
+		BBDF23232C139B1D00064F5F /* Algorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23222C139B1D00064F5F /* Algorithm.swift */; };
+		BBDF23252C14DC7500064F5F /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23242C14DC7500064F5F /* ContainerView.swift */; };
+		BBDF23272C14DCB400064F5F /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23262C14DCB400064F5F /* BoardView.swift */; };
+		BBDF23292C14DD9F00064F5F /* BoardLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDF23282C14DD9F00064F5F /* BoardLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		BBDF231C2C1341BD00064F5F /* BoardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardModel.swift; sourceTree = "<group>"; };
 		BBDF231E2C1342D000064F5F /* BoardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardCell.swift; sourceTree = "<group>"; };
 		BBDF23202C13455400064F5F /* AddBoardModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBoardModal.swift; sourceTree = "<group>"; };
+		BBDF23222C139B1D00064F5F /* Algorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Algorithm.swift; sourceTree = "<group>"; };
+		BBDF23242C14DC7500064F5F /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		BBDF23262C14DCB400064F5F /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		BBDF23282C14DD9F00064F5F /* BoardLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,10 @@
 				BBDF231C2C1341BD00064F5F /* BoardModel.swift */,
 				BBDF231E2C1342D000064F5F /* BoardCell.swift */,
 				BBDF23202C13455400064F5F /* AddBoardModal.swift */,
+				BBDF23222C139B1D00064F5F /* Algorithm.swift */,
+				BBDF23242C14DC7500064F5F /* ContainerView.swift */,
+				BBDF23262C14DCB400064F5F /* BoardView.swift */,
+				BBDF23282C14DD9F00064F5F /* BoardLayoutView.swift */,
 			);
 			path = CutCalc;
 			sourceTree = "<group>";
@@ -269,9 +281,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBDF231D2C1341BD00064F5F /* BoardModel.swift in Sources */,
+				BBDF23232C139B1D00064F5F /* Algorithm.swift in Sources */,
 				BBDF22F42C13418B00064F5F /* ContentView.swift in Sources */,
 				BBDF23212C13455400064F5F /* AddBoardModal.swift in Sources */,
+				BBDF23292C14DD9F00064F5F /* BoardLayoutView.swift in Sources */,
 				BBDF231F2C1342D000064F5F /* BoardCell.swift in Sources */,
+				BBDF23272C14DCB400064F5F /* BoardView.swift in Sources */,
+				BBDF23252C14DC7500064F5F /* ContainerView.swift in Sources */,
 				BBDF22F22C13418B00064F5F /* CutCalcApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
