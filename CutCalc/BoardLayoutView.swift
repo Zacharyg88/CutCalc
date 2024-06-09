@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct BoardLayoutView: View {
-    @StateObject var container = ContainerModel(width: 300, height: 300)
+    @StateObject var container = ContainerModel(width: 49, height: 96)
 
     var body: some View {
         VStack {
@@ -21,10 +21,10 @@ struct BoardLayoutView: View {
         .onAppear {
             // Initialize rectangles
             container.rectangles = [
-                RectangleModel(width: 70, height: 50),
-                RectangleModel(width: 100, height: 80),
-                RectangleModel(width: 60, height: 60),
-                RectangleModel(width: 50, height: 50)
+                RectangleModel(width: 10, height: 12),
+                RectangleModel(width: 8, height: 9),
+                RectangleModel(width: 12, height: 3),
+                RectangleModel(width: 19, height: 14)
             ]
         }
     }
